@@ -1,3 +1,9 @@
+mkdir 
+cd 
+(add files)
+docker --version
+docker login -u supritha01
+
 docker build . -t supritha01/php_image
 docker run --name php -p 3000:3000 supritha01/php_image 
 http://localhost:3000/hello.php
